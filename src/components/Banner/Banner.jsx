@@ -39,10 +39,10 @@ const Banner = () => {
       <div className="absolute top-5 left-16 sm:left-0 sm:top-0 opacity-50 sm:opacity-100">
         <img src={Epinard} alt="" className="max-w-[160px]" />
       </div>
-      <div className="absolute top-0 left-0 opacity-50 sm:opacity-100">
+      <div className="absolute top-5 right-25 -sm:right-50 opacity-100 sm:opacity-100">
         <img src={Tomate} alt="" className="max-w-[280px]" />
       </div>
-      <div className="absolute top-10 right-16 sm:right-20 opacity-50 sm:opacity-100">
+      <div className="absolute top-12 right-16 sm:right-1 opacity-50 sm:opacity-100">
         <img src={Citron} alt="" className="max-w-[200px]" />
       </div>
       <div className="hidden sm:block absolute bottom-0 right-0">
