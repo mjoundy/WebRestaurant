@@ -19,21 +19,25 @@ const Hero = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center min-h-[600px]">
           <div className="space-y-7 text-dark order-2 sm:order-1">
             <h1 className="text-5xl">
-              Fresh & Healthy Meal Plan{" "}
+              Repas Frais et sain {" "}
               <span className="text-red-400 font-cursive text-7xl">
-                Delivery
+                Livraison 
               </span>{" "}
-              in Casa
+              à Casablanca
             </h1>
-            <p className="lg:pr-64">
-              Delicious Meals Delivered to your door From 600 Dhs per week
+            <p data-aos="fade-up" data-aos-delay="300" className="lg:pr-64">
+            De délicieux repas livrés à votre porte À partir de 600 Dhs par semaine
             </p>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="500">
               <PrimaryButton />
             </div>
           </div>
 
-          <div className="relative z-30 order-2 sm:order-1">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            className="relative z-30 order-2 sm:order-1"
+          >
             <img
               src={HeroImg}
               alt=""

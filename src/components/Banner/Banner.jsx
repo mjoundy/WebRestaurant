@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <div className="container py-14 relative">
       <h1 className="py-8 tracking-wider text-2xl font-semibold text-dark text-center">
-        Taste the Healthy Difference
+        Goûter cette différence sainement
       </h1>
       <div className="space-y-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-10">
@@ -18,16 +18,16 @@ const Banner = () => {
             <p>
               Nous sommes dans un monde moderne. Notre service de livraison de
               plans sains, une délicieuse nourriture à Casablanca est la réponse
-              pour ceux qui veulent manger sainement, gagner du temps
+              pour ceux qui veulent manger sainement tout en gagnant du temps et de l'énergie. 
+  
             </p>
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-10">
           <div>
             <p>
-              Nous sommes dans un monde moderne. Notre service de livraison de
-              plans sains, une délicieuse nourriture à Casablanca est la réponse
-              pour ceux qui veulent manger sainement, gagner du temps
+             Tomate, Comcombre, épinard, pomme, banane sont quelques legumes et fruits qui font la différence.
+             Mangez frais, Manger sain c'est notre principal devise.
             </p>
           </div>
         </div>

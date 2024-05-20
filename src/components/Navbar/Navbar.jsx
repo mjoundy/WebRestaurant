@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCaretDown, FaUser } from "react-icons/fa";
+import logo from "../../assets/png/logo-livraison-remove.png";
 
 const Navlinks = [
   {
@@ -37,12 +38,14 @@ const Dropdownlinks = [
   },
 ];
 
-const Navbar = () => {
+const Navbar = ({ HandlePopup }) => {
   return (
-    <div className="bg-white shadow-md">
+    <div data-aos="fade" className="bg-white shadow-md">
       <div className="container flex justify-between py-4 sm:py-3">
         {/* Logo section */}
-        <div className="font-bold text-3xl">logo</div>
+        <div className="font-bold text-3xl">
+          <img src={logo} alt="" className="max-w-[100px]" />
+        </div>
         {/* Navlinks section */}
         <div>
           <ul className="flex items-center gap-10">
@@ -90,9 +93,12 @@ const Navbar = () => {
             </li>
             {/* My Account button */}
             <li>
-              <button className="flex items-center gap-2 bg-secondary text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-300">
+              <button
+                onClick={HandlePopup}
+                className="flex items-center gap-2 bg-secondary text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-300"
+              >
                 <FaUser />
-                My Account
+                Mon compte 
               </button>
             </li>
           </ul>
